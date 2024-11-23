@@ -32,7 +32,7 @@ def login():
     random_password = generate_random_password()
 
     print("=" * 30)
-    print("Welcome to Termux")
+    print("KHOKHAR BRAND TOOLS")
     print("Your random password has been set!")
     print(f"Random Password: {random_password}")  # Display for testing. Remove in production.
     print("=" * 30)
@@ -42,7 +42,7 @@ def login():
         entered_password = getpass.getpass("Enter Password: ")  # Hides input for security
 
         if entered_password == random_password:
-            print("Login Successful! Welcome to Termux.")
+            print("Login Successful! Wellcome To KHOKHAR BRAND TOOLS.")
             return
         else:
             print(f"Incorrect Password. {2 - attempt} attempts left.")
@@ -53,8 +53,6 @@ def login():
 # Run the login function
 if __name__ == "__main__":
     login()
-
-
 
 banner = """
 Modified by:
