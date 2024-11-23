@@ -1,7 +1,7 @@
 KHOKHAR BRAND TOOL COMMANDS 
 STEP BY STEP FOLLOW 
 
-https://github.com/Abdullah38572/Tiktok-premium.git
+git clone https://github.com/Abdullah38572/Tiktok-premium.git
 
 cd TikTokBoost
 
